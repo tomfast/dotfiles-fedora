@@ -19,8 +19,8 @@
 	changed = green
 	untracked = cyan
 [user]
-	name = Shane Davies
-	email = shane@domain7.com
+	name = Tom Fast
+	email = tom@domain7.com
 [alias]
 	co = checkout
 	ci = commit
