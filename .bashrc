@@ -35,6 +35,7 @@ alias whatismyip='curl ip.appspot.com'
 alias gpw="apg -n20 -m20 -MNCLS -p7 -a1 -E \\\/\\\`\>\<\\\"\'\\\\ -r /usr/share/dict/words"
 alias git-untracked="git ls-files --other --exclude-standard"
 alias git-ignored="git ls-files --ignored --exclude-standard --others"
+alias g="git status"
 
 #heroku
 export PATH="/usr/local/heroku/bin:$PATH"
