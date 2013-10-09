@@ -36,6 +36,7 @@ alias gpw="apg -n20 -m20 -MNCLS -p7 -a1 -E \\\/\\\`\>\<\\\"\'\\\\ -r /usr/share/
 alias git-untracked="git ls-files --other --exclude-standard"
 alias git-ignored="git ls-files --ignored --exclude-standard --others"
 alias g="git status"
+alias gd="git diff"
 
 #heroku
 export PATH="/usr/local/heroku/bin:$PATH"
@@ -58,3 +59,5 @@ export BUNGLER="rails rake rspec cucumber specjour pickler guard knife"
 #replaced by bungler  alias guard="bundle exec guard"
 #replaced by bungler  alias knife="bundle exec knife"
 #replaced by bungler  alias cucumber="bundle exec cucumber"
+export BUNGLER="rails rake rspec cucumber"
+[[ -s "$HOME/.bungler/bungler" ]] && . $HOME/.bungler/bungler
